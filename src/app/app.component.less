@@ -1,0 +1,45 @@
+.tabledemo{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .left{
+        display: flex;
+        width: 60px;
+        flex-wrap: wrap;
+    }
+    .right{
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        // flex-wrap: wrap;
+        flex-direction: column;
+        position: absolute;
+        left: 60px;
+    }
+    .right1{
+        display: flex;
+    }
+    .right::-webkit-scrollbar {
+        display: none;
+    }
+    .span{
+        width: 60px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right_box{
+        height: 40px;
+        // flex: 1;
+        display: flex;
+        
+    }
+}
+.tabledemo::-webkit-scrollbar {
+    display: none;
+}
