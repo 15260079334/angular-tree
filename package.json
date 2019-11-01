@@ -24,7 +24,7 @@
     "@zokelion/ngx-select": "^1.0.5",
     "angular-tree-component": "^8.3.0",
     "core-js": "^2.5.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "ng-easyui": "^1.2.6",
     "ngx-tree-select": "^0.14.0",
     "ngx-treeview": "^6.0.2",
